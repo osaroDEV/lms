@@ -8,7 +8,7 @@ interface RootLayoutProps {
 const RootLayout = ({ children }: RootLayoutProps): ReactElement => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-black text-white'>{children}</body>
     </html>
   )
 }
