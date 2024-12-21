@@ -37,5 +37,5 @@ export default buildConfig({
     payloadCloudPlugin(),
     // storage-adapter-placeholder
   ],
-  cors: ["http://localhost:3000", "http://localhost:3001"],
+  cors: ["http://localhost:3000", "http://localhost:3001", 'https://lms-three-silk.vercel.app/'],
 })
