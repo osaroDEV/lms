@@ -7,7 +7,7 @@ const Page = () => {
 
   const handleCheck = async () => {
     try {
-      const req = await fetch('http://localhost:3000/api/customers/me', {
+      const req = await fetch('https://lms-three-silk.vercel.app/api/customers/me', {
         method: 'GET',
         credentials: 'include',
         headers: {

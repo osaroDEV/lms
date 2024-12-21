@@ -13,7 +13,7 @@ const LogoutButton = (): ReactElement => {
 
   const handleLogout = async (): Promise<void> => {
     try {
-      const res = await fetch('http://localhost:3000/api/customers/logout', {
+      const res = await fetch('https://lms-three-silk.vercel.app/api/customers/logout', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
